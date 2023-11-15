@@ -10,6 +10,7 @@ import {
   UsersIcon ,
 } from '@heroicons/react/20/solid'
 import logo from '../assets/studyBuddy.png'
+import footLogo from '../assets/5-removebg-preview (1).png'
 import hero from '../assets/hero.png'
 import frame from '../assets/Frame 9.png'
 import { Routes, Route, Navigate,Link } from 'react-router-dom';
@@ -711,7 +712,7 @@ export default function Example() {
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <img
               className="h-7"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+              src={footLogo}
               alt="Company name"
             />
             <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
