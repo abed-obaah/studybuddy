@@ -7,6 +7,8 @@ import Register from "./Components/auth/RegForm"
 import Dashboard from "./Components/Dashboard/Main" 
 import Category from "./Components/Dashboard/Category" 
 import Assignments from "./Components/Dashboard/Assignment" 
+import PlayLists from "./Components/Dashboard/PlayLists" 
+import WatchVideo from "./Components/Dashboard/WatchVideo" 
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
       <Route path='/Dashboard' element={<Dashboard/>}/>
       <Route path='/Category' element={<Category/>}/>
       <Route path='/Assignments' element={<Assignments/>}/>
+      <Route path='/PlayLists' element={<PlayLists/>}/>
+      <Route path='/WatchVideo' element={<WatchVideo/>}/>
     </Routes>
       
     </>
