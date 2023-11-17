@@ -26,16 +26,10 @@ import thumb5 from '../../assets/thumb-5.png'
 import pic7 from '../../assets/pic-7.jpg'
 import thumb6 from '../../assets/thumb-6.png'
 import { Link } from 'react-router-dom';
-import { FaCode,FaHtml5, FaCss3,FaReact,FaPhp,FaBootstrap  } from "react-icons/fa";
-import { FaChartSimple,FaChartLine } from "react-icons/fa6";
-import { MdOutlineDesignServices } from "react-icons/md";
-import { IoMusicalNotesOutline } from "react-icons/io5";
-import { MdAddAPhoto } from "react-icons/md";
-import { SiPaloaltosoftware } from "react-icons/si";
-import { GiMaterialsScience } from "react-icons/gi";
-import { IoLogoJavascript } from "react-icons/io5";
+import { FaRegHeart,FaSave,FaComments   } from "react-icons/fa";
 import MainLogo from '../../assets/studyBuddy.png'
 import logo from '../../assets/5-removebg-preview (1).png'
+
 
 
 
@@ -46,7 +40,7 @@ const navigation = [
   { name: 'PlayLists', href: '/PlayLists', icon: CalendarIcon, current: false },
   { name: 'Messages', href: '/Messages', icon: DocumentDuplicateIcon, current: false },
   { name: 'Courses', href: '/Courses', icon: ChartPieIcon, current: false },
-] 
+]
 const teams = [
   { id: 1, name: 'Heroicons', href: '#', initial: 'H', current: false },
   { id: 2, name: 'Tailwind Labs', href: '#', initial: 'T', current: false },
@@ -61,7 +55,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function Profile() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
   return (
@@ -336,213 +330,66 @@ export default function Example() {
 
           <main className="py-10">
             <div className="px-4 sm:px-6 lg:px-8"><>
-  <section className="home-grid">
-    <h1 className="heading">quick options</h1>
-    <div className="box-container">
-      
-      <div className="box">
-        <h3 className="title">top categories</h3>
-        <div className="flex">
-          <a href="#" className='flex'>
-            {/* <i className="fas fa-code" /> */}
-            <FaCode className="fas fa-code" />
-            <span>development</span>
-          </a>
-          <a href="#" className='flex'>
-            {/* <i className="fa fa-chart-simple" /> */}
-            <FaChartSimple className="fas fa-chart-simple"/>
-            <span>business</span>
-          </a>
-          <a href="#" className='flex'>
-            {/* <i className="fas fa-pen" /> */}
-            <MdOutlineDesignServices className="fas fa-pen"  />
-            <span>design</span>
-          </a>
-          <a href="#" className='flex'>
-            <FaChartLine className="fas fa-chart-line" />
-            <span>marketing</span>
-          </a>
-          <a href="#" className='flex'>
-            <IoMusicalNotesOutline className="fas fa-music" />
-            <span>music</span>
-          </a>
-          <a href="#" className='flex'>
-            <MdAddAPhoto className="fas fa-camera" />
-            <span>photography</span>
-          </a>
-          <a href="#" className='flex'>
-            <SiPaloaltosoftware className="fas fa-cog" />
-            <span>software</span>
-          </a>
-          <a href="#" className='flex'>
-            <GiMaterialsScience className="fas fa-vial" />
-            <span>science</span>
-          </a>
-        </div>
-      </div>
-      <div className="box">
-        <h3 className="title">popular topics</h3>
-        <div className="flex">
-          <a href="#" className="flex">
-            <FaHtml5  className="fab fa-html5" />
-            <span>HTML</span>
-          </a>
-          <a href="#" className='flex'>
-            < FaCss3  className="fab fa-css3" />
-            <span>CSS</span>
-          </a>
-          <a href="#" className='flex'>
-            <IoLogoJavascript className="fab fa-js" />
-            <span>javascript</span>
-          </a>
-          <a href="#" className='flex'>
-            <FaReact className="fab fa-react" />
-            <span>react</span>
-          </a>
-          <a href="#" className='flex'>
-            <FaPhp className="fab fa-php" />
-            <span>PHP</span>
-          </a>
-          <a href="#" className='flex'>
-            <FaBootstrap  className="fab fa-bootstrap" />
-            <span>bootstrap</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section className="courses">
-    <h1 className="heading">our courses</h1>
-    <div className="box-container">
-      <div className="box">
-        <div className="tutor">
-        <img src={pic2} alt="" />
-          <div className="info">
-            <h3>john deo</h3>
-            <span>21-10-2022</span>
-          </div>
-        </div>
-        <div className="thumb">
-          <img src={thumb1} alt="" />
-          <span>10 videos</span>
-        </div>
-        <h3 className="title">complete HTML tutorial</h3>
-        <a href="playlist.html" className="inline-btn">
-          <Link to='/PlayLists'>
-              view playlist
-           </Link>
-          
-        </a>
-      </div>
-      <div className="box">
-        <div className="tutor">
-          <img src={pic3} alt="" />
-          <div className="info">
-            <h3>john deo</h3>
-            <span>21-10-2022</span>
-          </div>
-        </div>
-        <div className="thumb">
-          <img src={thumb2} alt="" />
-          <span>10 videos</span>
-        </div>
-        <h3 className="title">complete CSS tutorial</h3>
-        <a href="playlist.html" className="inline-btn">
-          <Link to='/PlayLists'>
-              view playlist
-           </Link>
-          
-        </a>
-      </div>
-      <div className="box">
-        <div className="tutor">
-          <img src={pic4} alt="" />
-          <div className="info">
-            <h3>john deo</h3>
-            <span>21-10-2022</span>
-          </div>
-        </div>
-        <div className="thumb">
-          <img src={thumb3} alt="" />
-          <span>10 videos</span>
-        </div>
-        <h3 className="title">complete JS tutorial</h3>
-        <a href="playlist.html" className="inline-btn">
-          <Link to='/PlayLists'>
-              view playlist
-           </Link>
-          
-        </a>
-      </div>
-      <div className="box">
-        <div className="tutor">
-          <img src={pic5} alt="" />
-          <div className="info">
-            <h3>john deo</h3>
-            <span>21-10-2022</span>
-          </div>
-        </div>
-        <div className="thumb">
-          <img src={thumb4} alt="" />
-          <span>10 videos</span>
-        </div>
-        <h3 className="title">complete Boostrap tutorial</h3>
-        <a href="playlist.html" className="inline-btn">
-          <Link to='/PlayLists'>
-              view playlist
-           </Link>
-          
-        </a>
-      </div>
-      <div className="box">
-        <div className="tutor">
-          <img src={pic6} alt="" />
-          <div className="info">
-            <h3>john deo</h3>
-            <span>21-10-2022</span>
-          </div>
-        </div>
-        <div className="thumb">
-          <img src={thumb5} alt="" />
-          <span>10 videos</span>
-        </div>
-        <h3 className="title">complete JQuery tutorial</h3>
-        <a href="playlist.html" className="inline-btn">
-          <Link to='/PlayLists'>
-              view playlist
-           </Link>
-          
-        </a>
-      </div>
-      <div className="box">
-        <div className="tutor">
-          <img src={pic7}alt="" />
-          <div className="info">
-            <h3>john deo</h3>
-            <span>21-10-2022</span>
-          </div>
-        </div>
-        <div className="thumb">
-          <img src={thumb6} alt="" />
-          <span>10 videos</span>
-        </div>
-        <h3 className="title">complete SASS tutorial</h3>
-        <a href="playlist.html" className="inline-btn">
-          <Link to='/PlayLists'>
-              view playlist
-           </Link>
-          
-        </a>
-      </div>
-    </div>
-    <div className="more-btn">
-      <a href="courses.html" className="inline-option-btn">
-        <Link to='/Courses'>
-          view all courses
-        </Link>
+            <section className="user-profile">
+  <h1 className="heading">your profile</h1>
+  <div className="info">
+    <div className="user">
+      <img src={pic2} alt="" />
+      <h3>Abednego Obaah</h3>
+      <p>student</p>
+      <a href="update.html" className="inline-btn">
+        update profile
       </a>
     </div>
-  </section>
+    <div className="box-container">
+      <div className="box">
+        <div className="flex">
+          <span className="fas fa-bookmark i" >
+          <FaSave />
+          </span>
+          <div>
+            <span>4</span>
+            <p>saved playlist</p>
+          </div>
+        </div>
+        <a href="#" className="inline-btn">
+          view playlists
+        </a>
+      </div>
+      <div className="box">
+        <div className="flex">
+          <span>
+            <FaRegHeart  className="fas fa-heart i"  />
+          </span>
+          
+          <div>
+            <span>33</span>
+            <p>videos liked</p>
+          </div>
+        </div>
+        <a href="#" className="inline-btn">
+          view liked
+        </a>
+      </div>
+      <div className="box">
+        <div className="flex">
+          {/* <i className="fas fa-comment" /> */}
+          <span>
+            <FaComments   className="fas fa-comment i"  />
+          </span>
+          <div>
+            <span>12</span>
+            <p>videos comments</p>
+          </div>
+        </div>
+        <a href="#" className="inline-btn">
+          view comments
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 </>
 </div>
           </main>

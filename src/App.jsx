@@ -9,6 +9,9 @@ import Category from "./Components/Dashboard/Category"
 import Assignments from "./Components/Dashboard/Assignment" 
 import PlayLists from "./Components/Dashboard/PlayLists" 
 import WatchVideo from "./Components/Dashboard/WatchVideo" 
+import Courses from "./Components/Dashboard/Courses" 
+import Profile from "./Components/Dashboard/Profile"
+import TutorProfile from "./Components/Dashboard/TutorProfile"
 
 
 function App() {
@@ -25,6 +28,9 @@ function App() {
       <Route path='/Assignments' element={<Assignments/>}/>
       <Route path='/PlayLists' element={<PlayLists/>}/>
       <Route path='/WatchVideo' element={<WatchVideo/>}/>
+      <Route path='/Courses' element={<Courses/>}/>
+      <Route path='/Profile' element={<Profile/>}/>
+      <Route path='/TutorProfile' element={<TutorProfile/>}/>
     </Routes>
       
     </>

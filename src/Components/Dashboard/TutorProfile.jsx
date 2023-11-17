@@ -14,6 +14,7 @@ import {
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 import pic2 from '../../assets/pic-2.jpg'
+import pic1 from '../../assets/pic-1.jpg'
 import thumb1 from '../../assets/thumb-1.png'
 import pic3 from '../../assets/pic-3.jpg'
 import thumb2 from '../../assets/thumb-2.png'
@@ -24,34 +25,40 @@ import thumb4 from '../../assets/thumb-4.png'
 import pic6 from '../../assets/pic-6.jpg'
 import thumb5 from '../../assets/thumb-5.png'
 import pic7 from '../../assets/pic-7.jpg'
+import pic8 from '../../assets/pic-8.jpg'
+import pic9 from '../../assets/pic-9.jpg'
+import thumb7 from '../../assets/thumb-7.png'
+import thumb8 from '../../assets/thumb-8.png'
+import thumb9 from '../../assets/thumb-9.png'
 import thumb6 from '../../assets/thumb-6.png'
+import post1 from '../../assets/post-1-1.png'
+import post2 from '../../assets/post-1-2.png'
+import post3 from '../../assets/post-1-3.png'
+import post4 from '../../assets/post-1-4.png'
+import post5 from '../../assets/post-1-5.png'
+import post6 from '../../assets/post-1-6.png'
 import { Link } from 'react-router-dom';
-import { FaCode,FaHtml5, FaCss3,FaReact,FaPhp,FaBootstrap  } from "react-icons/fa";
-import { FaChartSimple,FaChartLine } from "react-icons/fa6";
-import { MdOutlineDesignServices } from "react-icons/md";
-import { IoMusicalNotesOutline } from "react-icons/io5";
-import { MdAddAPhoto } from "react-icons/md";
-import { SiPaloaltosoftware } from "react-icons/si";
-import { GiMaterialsScience } from "react-icons/gi";
-import { IoLogoJavascript } from "react-icons/io5";
+
+import post11 from '../../assets/post-1-1.png'
+import vid1 from '../../assets/vid-1.mp4'
 import MainLogo from '../../assets/studyBuddy.png'
 import logo from '../../assets/5-removebg-preview (1).png'
 
-
-
 const navigation = [
-  { name: 'Dashboard', href: '/Dashboard', icon: HomeIcon, current: true },
-  { name: 'Category', href: '/Category', icon: UsersIcon, current: false },
-  { name: 'Assignments', href: '/Assignments', icon: FolderIcon, current: false },
-  { name: 'PlayLists', href: '/PlayLists', icon: CalendarIcon, current: false },
-  { name: 'Messages', href: '/Messages', icon: DocumentDuplicateIcon, current: false },
-  { name: 'Courses', href: '/Courses', icon: ChartPieIcon, current: false },
-] 
+    { name: 'Dashboard', href: '/Dashboard', icon: HomeIcon, current: true },
+    { name: 'Category', href: '/Category', icon: UsersIcon, current: false },
+    { name: 'Assignments', href: '/Assignments', icon: FolderIcon, current: false },
+    { name: 'PlayLists', href: '/PlayLists', icon: CalendarIcon, current: false },
+    { name: 'Messages', href: '/Messages', icon: DocumentDuplicateIcon, current: false },
+    { name: 'Courses', href: '/Courses', icon: ChartPieIcon, current: false },
+]  
+
 const teams = [
   { id: 1, name: 'Heroicons', href: '#', initial: 'H', current: false },
   { id: 2, name: 'Tailwind Labs', href: '#', initial: 'T', current: false },
   { id: 3, name: 'Workcation', href: '#', initial: 'W', current: false },
 ]
+
 const userNavigation = [
   { name: 'Your profile', href: '/Profile' },
   { name: 'Sign out', href: '#' },
@@ -61,7 +68,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function PlayLists() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
   return (
@@ -140,7 +147,7 @@ export default function Example() {
                           </ul>
                         </li>
                         <li>
-                          <div className="text-xs font-semibold leading-6 text-gray-400">Top Tutors</div>
+                          <div className="text-xs font-semibold leading-6 text-gray-400"></div>
                           <ul role="list" className="-mx-2 mt-2 space-y-1">
                             {teams.map((team) => (
                               <li key={team.name}>
@@ -335,79 +342,29 @@ export default function Example() {
           </div>
 
           <main className="py-10">
-            <div className="px-4 sm:px-6 lg:px-8"><>
-  <section className="home-grid">
-    <h1 className="heading">quick options</h1>
-    <div className="box-container">
-      
-      <div className="box">
-        <h3 className="title">top categories</h3>
-        <div className="flex">
-          <a href="#" className='flex'>
-            {/* <i className="fas fa-code" /> */}
-            <FaCode className="fas fa-code" />
-            <span>development</span>
-          </a>
-          <a href="#" className='flex'>
-            {/* <i className="fa fa-chart-simple" /> */}
-            <FaChartSimple className="fas fa-chart-simple"/>
-            <span>business</span>
-          </a>
-          <a href="#" className='flex'>
-            {/* <i className="fas fa-pen" /> */}
-            <MdOutlineDesignServices className="fas fa-pen"  />
-            <span>design</span>
-          </a>
-          <a href="#" className='flex'>
-            <FaChartLine className="fas fa-chart-line" />
-            <span>marketing</span>
-          </a>
-          <a href="#" className='flex'>
-            <IoMusicalNotesOutline className="fas fa-music" />
-            <span>music</span>
-          </a>
-          <a href="#" className='flex'>
-            <MdAddAPhoto className="fas fa-camera" />
-            <span>photography</span>
-          </a>
-          <a href="#" className='flex'>
-            <SiPaloaltosoftware className="fas fa-cog" />
-            <span>software</span>
-          </a>
-          <a href="#" className='flex'>
-            <GiMaterialsScience className="fas fa-vial" />
-            <span>science</span>
-          </a>
-        </div>
+                <div className="px-4 sm:px-6 lg:px-8">
+                <>
+  <section className="teacher-profile">
+    <h1 className="heading">profile details</h1>
+    <div className="details">
+      <div className="tutor items-center">
+        <img src={pic2} alt="" />
+        <h3>john deo</h3>
+        <span>developer</span>
       </div>
-      <div className="box">
-        <h3 className="title">popular topics</h3>
-        <div className="flex">
-          <a href="#" className="flex">
-            <FaHtml5  className="fab fa-html5" />
-            <span>HTML</span>
-          </a>
-          <a href="#" className='flex'>
-            < FaCss3  className="fab fa-css3" />
-            <span>CSS</span>
-          </a>
-          <a href="#" className='flex'>
-            <IoLogoJavascript className="fab fa-js" />
-            <span>javascript</span>
-          </a>
-          <a href="#" className='flex'>
-            <FaReact className="fab fa-react" />
-            <span>react</span>
-          </a>
-          <a href="#" className='flex'>
-            <FaPhp className="fab fa-php" />
-            <span>PHP</span>
-          </a>
-          <a href="#" className='flex'>
-            <FaBootstrap  className="fab fa-bootstrap" />
-            <span>bootstrap</span>
-          </a>
-        </div>
+      <div className="flex">
+        <p>
+          total playlists : <span>4</span>
+        </p>
+        <p>
+          total videos : <span>18</span>
+        </p>
+        <p>
+          total likes : <span>1208</span>
+        </p>
+        <p>
+          total comments : <span>52</span>
+        </p>
       </div>
     </div>
   </section>
@@ -415,33 +372,18 @@ export default function Example() {
     <h1 className="heading">our courses</h1>
     <div className="box-container">
       <div className="box">
-        <div className="tutor">
-        <img src={pic2} alt="" />
-          <div className="info">
-            <h3>john deo</h3>
-            <span>21-10-2022</span>
-          </div>
-        </div>
         <div className="thumb">
-          <img src={thumb1} alt="" />
+          <img src={thumb1}alt="" />
           <span>10 videos</span>
         </div>
         <h3 className="title">complete HTML tutorial</h3>
         <a href="playlist.html" className="inline-btn">
           <Link to='/PlayLists'>
-              view playlist
-           </Link>
-          
+          view playlist
+          </Link>
         </a>
       </div>
       <div className="box">
-        <div className="tutor">
-          <img src={pic3} alt="" />
-          <div className="info">
-            <h3>john deo</h3>
-            <span>21-10-2022</span>
-          </div>
-        </div>
         <div className="thumb">
           <img src={thumb2} alt="" />
           <span>10 videos</span>
@@ -449,102 +391,38 @@ export default function Example() {
         <h3 className="title">complete CSS tutorial</h3>
         <a href="playlist.html" className="inline-btn">
           <Link to='/PlayLists'>
-              view playlist
-           </Link>
-          
+          view playlist
+          </Link>
         </a>
       </div>
       <div className="box">
-        <div className="tutor">
-          <img src={pic4} alt="" />
-          <div className="info">
-            <h3>john deo</h3>
-            <span>21-10-2022</span>
-          </div>
-        </div>
-        <div className="thumb">
-          <img src={thumb3} alt="" />
-          <span>10 videos</span>
-        </div>
-        <h3 className="title">complete JS tutorial</h3>
-        <a href="playlist.html" className="inline-btn">
-          <Link to='/PlayLists'>
-              view playlist
-           </Link>
-          
-        </a>
-      </div>
-      <div className="box">
-        <div className="tutor">
-          <img src={pic5} alt="" />
-          <div className="info">
-            <h3>john deo</h3>
-            <span>21-10-2022</span>
-          </div>
-        </div>
         <div className="thumb">
           <img src={thumb4} alt="" />
+          <span>10 videos</span>
+        </div>
+        <h3 className="title">complete javascript tutorial</h3>
+        <a href="playlist.html" className="inline-btn">
+          <Link to='/PlayLists'>
+          view playlist
+          </Link>
+        </a>
+      </div>
+      <div className="box">
+        <div className="thumb">
+          <img src={thumb5} alt="" />
           <span>10 videos</span>
         </div>
         <h3 className="title">complete Boostrap tutorial</h3>
         <a href="playlist.html" className="inline-btn">
           <Link to='/PlayLists'>
-              view playlist
-           </Link>
-          
+          view playlist
+          </Link>
         </a>
       </div>
-      <div className="box">
-        <div className="tutor">
-          <img src={pic6} alt="" />
-          <div className="info">
-            <h3>john deo</h3>
-            <span>21-10-2022</span>
-          </div>
-        </div>
-        <div className="thumb">
-          <img src={thumb5} alt="" />
-          <span>10 videos</span>
-        </div>
-        <h3 className="title">complete JQuery tutorial</h3>
-        <a href="playlist.html" className="inline-btn">
-          <Link to='/PlayLists'>
-              view playlist
-           </Link>
-          
-        </a>
-      </div>
-      <div className="box">
-        <div className="tutor">
-          <img src={pic7}alt="" />
-          <div className="info">
-            <h3>john deo</h3>
-            <span>21-10-2022</span>
-          </div>
-        </div>
-        <div className="thumb">
-          <img src={thumb6} alt="" />
-          <span>10 videos</span>
-        </div>
-        <h3 className="title">complete SASS tutorial</h3>
-        <a href="playlist.html" className="inline-btn">
-          <Link to='/PlayLists'>
-              view playlist
-           </Link>
-          
-        </a>
-      </div>
-    </div>
-    <div className="more-btn">
-      <a href="courses.html" className="inline-option-btn">
-        <Link to='/Courses'>
-          view all courses
-        </Link>
-      </a>
     </div>
   </section>
 </>
-</div>
+                </div>
           </main>
         </div>
       </div>

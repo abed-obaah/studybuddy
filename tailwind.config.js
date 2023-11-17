@@ -22,7 +22,14 @@ export default {
         'custom-yellow': '#FFCC00', // Replace with your own color and class name
         'green-primary':'#18C840',
         'Neutral':'#F8FAFC',
-        'Primary':'#18C840'
+                'Primary':'#18C840',
+                'main-color':'#8e44ad',
+            'red':'#e74c3c',
+            'orange':'#f39c12',
+            'light-color':'#888',
+            'light-bg':'#eee',
+            'black':'#2c3e50',
+            'white':'#fff'
       },
       textColor: {
         'custom-dark-text': '#0D1A26',
