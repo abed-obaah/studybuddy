@@ -423,7 +423,7 @@
 }
 
 .watch-video .video-container .tutor h3{
-   font-size: 1rem;
+   font-size: .6rem;
    color: var(--black);
    margin-bottom: .2rem;
 }
@@ -442,8 +442,8 @@
 
 .watch-video .video-container .flex button{
    border-radius: .5rem;
-   padding: 1rem 1.5rem;
-   font-size: 1.3rem;
+   padding: 1rem 1.3rem;
+   font-size: 1.2rem;
    cursor: pointer;
    background-color: var(--light-bg);
 }
