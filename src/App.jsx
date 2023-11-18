@@ -12,6 +12,7 @@ import WatchVideo from "./Components/Dashboard/WatchVideo"
 import Courses from "./Components/Dashboard/Courses" 
 import Profile from "./Components/Dashboard/Profile"
 import TutorProfile from "./Components/Dashboard/TutorProfile"
+import Messages from "./Components/Dashboard/Messages"
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <Route path='/Courses' element={<Courses/>}/>
       <Route path='/Profile' element={<Profile/>}/>
       <Route path='/TutorProfile' element={<TutorProfile/>}/>
+      <Route path='/Messages' element={<Messages/>}/>
     </Routes>
       
     </>

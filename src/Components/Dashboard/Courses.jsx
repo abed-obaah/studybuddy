@@ -359,7 +359,7 @@ export default function PlayLists() {
         <span>10 videos</span>
       </div>
       <h3 className="title">complete HTML tutorial</h3>
-      <a href="playlist.html" className="inline-btn">
+      <a href="#" className="inline-btn">
         <Link to='/Playlists'>
         view playlist                     
         </Link>
@@ -379,7 +379,7 @@ export default function PlayLists() {
         <span>10 videos</span>
       </div>
       <h3 className="title">complete CSS tutorial</h3>
-      <a href="playlist.html" className="inline-btn">
+      <a href="#" className="inline-btn">
         <Link to='/Playlists'>
         view playlist                     
         </Link>
@@ -399,7 +399,7 @@ export default function PlayLists() {
         <span>10 videos</span>
       </div>
       <h3 className="title">complete JS tutorial</h3>
-      <a href="playlist.html" className="inline-btn">
+      <a href="#" className="inline-btn">
         <Link to='/Playlists'>
         view playlist                     
         </Link>
@@ -419,7 +419,7 @@ export default function PlayLists() {
         <span>10 videos</span>
       </div>
       <h3 className="title">complete Boostrap tutorial</h3>
-      <a href="playlist.html" className="inline-btn">
+      <a href="#" className="inline-btn">
         <Link to='/Playlists'>
         view playlist                     
         </Link>
@@ -439,7 +439,7 @@ export default function PlayLists() {
         <span>10 videos</span>
       </div>
       <h3 className="title">complete JQuery tutorial</h3>
-      <a href="playlist.html" className="inline-btn">
+      <a href="#" className="inline-btn">
         <Link to='/Playlists'>
         view playlist                     
         </Link>
@@ -459,7 +459,7 @@ export default function PlayLists() {
         <span>10 videos</span>
       </div>
       <h3 className="title">complete SASS tutorial</h3>
-      <a href="playlist.html" className="inline-btn">
+      <a href="#" className="inline-btn">
         <Link to='/Playlists'>
         view playlist                     
         </Link>
@@ -479,7 +479,7 @@ export default function PlayLists() {
         <span>10 videos</span>
       </div>
       <h3 className="title">complete PHP tutorial</h3>
-      <a href="playlist.html" className="inline-btn">
+      <a href="#" className="inline-btn">
         <Link to='/Playlists'>
         view playlist                     
         </Link>
@@ -499,7 +499,7 @@ export default function PlayLists() {
         <span>10 videos</span>
       </div>
       <h3 className="title">complete MySQL tutorial</h3>
-      <a href="playlist.html" className="inline-btn">
+      <a href="#" className="inline-btn">
         <Link to='/Playlists'>
         view playlist                     
         </Link>
@@ -519,7 +519,7 @@ export default function PlayLists() {
         <span>10 videos</span>
       </div>
       <h3 className="title">complete react tutorial</h3>
-      <a href="playlist.html" className="inline-btn">
+      <a href="#" className="inline-btn">
         <Link to='/Playlists'>
         view playlist                     
         </Link>

@@ -32,14 +32,14 @@
     flex-wrap: wrap;
     gap: 1rem;
     margin-top: 2rem;
-    padding-left:2rem ;
+    padding-left:1rem ;
  }
  
  .box-container .flex a{
     background-color: var(--light-bg);
     border-radius: .5rem;
-    padding: 1rem 1.5rem;
-    font-size: 1.2rem;
+    padding: 1rem 1rem;
+    font-size: 1.1rem;
  }
  
  .box-container .flex a i{
@@ -89,7 +89,7 @@
  .courses .box-container .box .tutor{
     display: flex;
     align-items: center;
-    gap: 1.2rem;
+    gap: 1.1rem;
     margin-bottom: 1.5rem;
  }
  
@@ -102,7 +102,8 @@
  }
  
  .courses .box-container .box .tutor h3{
-    font-size: 1.4rem;
+    font-size: 1rem;
+    font-weight: 600;
     color: var(--black);
     margin-bottom: .1rem;
  }
@@ -136,7 +137,7 @@
  .courses .box-container .box .title{
     font-size: 1rem;
     color: var(--black);
-    padding-bottom: .3rem;
+    padding-bottom: .2rem;
     padding-top: .5rem;
  }
  
