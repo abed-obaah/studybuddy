@@ -365,7 +365,7 @@ export default function Category() {
                     High School Maths
                   </a>
                 </h3>
-                <p aria-hidden="true" className="mt-1 text-sm text-gray-600">
+                <p aria-hidden="true" className="mt-1  inline-flex items-center rounded-md bg-green-100 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
                   Beginers to Advanced
                 </p>
               </div>
@@ -389,7 +389,7 @@ export default function Category() {
                     Science
                   </a>
                 </h3>
-                <p aria-hidden="true" className="mt-1 text-sm text-white">
+                <p aria-hidden="true" className="mt-1  inline-flex items-center rounded-md bg-yellow-100 px-2 py-1 text-xs font-medium text-yellow-700 ring-1 ring-inset ring-green-yellow/20">
                   School
                 </p>
               </div>
@@ -413,7 +413,7 @@ export default function Category() {
                     Programming
                   </a>
                 </h3>
-                <p aria-hidden="true" className="mt-1 text-sm text-white">
+                <p aria-hidden="true" className="mt-1  inline-flex items-center rounded-md bg-green-200 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
                   Tech
                 </p>
               </div>

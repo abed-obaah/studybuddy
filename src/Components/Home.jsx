@@ -16,6 +16,7 @@ import frame from '../assets/Frame 9.png'
 import { Routes, Route, Navigate,Link } from 'react-router-dom';
 import { ArrowDownIcon, ArrowUpIcon } from '@heroicons/react/20/solid'
 import { CursorArrowRaysIcon, EnvelopeOpenIcon,} from '@heroicons/react/24/outline'
+import { FaRegCirclePlay } from "react-icons/fa6";
 
 
 
@@ -391,8 +392,8 @@ export default function Example() {
                 >
                   Get started
                 </a>
-                <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                  How it works <span aria-hidden="true">→</span>
+                <a href="#" className="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                 <span className=' text-3xl mr-2'><FaRegCirclePlay /> </span> How it works <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>

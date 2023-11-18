@@ -341,7 +341,14 @@ export default function Example() {
     <div className="box-container">
       
       <div className="box">
-        <h3 className="title">top categories</h3>
+        <div className="justify-between">
+            <h3 className="title">top categories</h3>
+            <Link to="/Category">
+                <h2 className='inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20'>View all</h2>
+            </Link>
+        </div>
+        
+        
         <div className="flex">
           <a href="#" className='flex'>
             {/* <i className="fas fa-code" /> */}
