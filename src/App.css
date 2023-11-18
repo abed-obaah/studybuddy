@@ -74,8 +74,8 @@
 
  .courses .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:1.2rem;
     justify-content: center;
     align-items: flex-start;
  }
