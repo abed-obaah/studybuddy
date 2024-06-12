@@ -465,10 +465,9 @@ export default function Example() {
                   <br />
                   Start using our app today.
                 </h2>
-{/*                 <p className="mt-6 text-lg leading-8 text-black ">
-                  Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel
-                  nulla. Ac euismod vel sit maecenas.
-                </p> */}
+                <p className="mt-6 text-lg leading-8 text-black ">
+                 At StudyBuddy, we are passionate about revolutionizing the way students learn and succeed. Our mission is to provide a comprehensive and personalized learning experience that empowers students to reach their full academic potential. With cutting-edge technology and a commitment to excellence, we strive to make learning engaging, accessible, and enjoyable for learners of all ages and backgrounds.
+                </p>
               </div>
               <img
                 src={frame}
@@ -477,7 +476,7 @@ export default function Example() {
                 width={432}
                 height={442}
               />
-              <div className="max-w-xl lg:row-start-3 lg:mt-10 lg:max-w-md lg:border-t lg:border-white/10 lg:pt-10">
+{/*               <div className="max-w-xl lg:row-start-3 lg:mt-10 lg:max-w-md lg:border-t lg:border-white/10 lg:pt-10">
                 <dl className="max-w-xl space-y-8 text-base leading-7 text-black  lg:max-w-none">
                   {primaryFeatures.map((feature) => (
                     <div key={feature.name} className="relative">
@@ -489,7 +488,7 @@ export default function Example() {
                     </div>
                   ))}
                 </dl>
-              </div>
+              </div> */}
             </div>
             <div
               className="pointer-events-none absolute left-12 top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-3xl lg:bottom-[-12rem] lg:top-auto lg:translate-y-0 lg:transform-gpu"
