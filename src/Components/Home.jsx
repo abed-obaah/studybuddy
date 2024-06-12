@@ -46,23 +46,23 @@ const primaryFeatures = [
 ]
 const secondaryFeatures = [
   {
-    name: 'Push to deploy',
+    name: 'Personalized Learning',
     description:
-      'Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.',
+      'Tailored study plans based on individual learning goals and schedules',
     href: '#',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'SSL certificates',
+    name: 'AI-driven Insights',
     description:
-      'Pellentesque enim a commodo malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.',
+      'Intelligent analytics and feedback to track progress and provide personalized recommendations',
     href: '#',
     icon: LockClosedIcon,
   },
   {
-    name: 'Simple queues',
+    name: 'Exam Preparation Suppor',
     description:
-      'Pellentesque sit elit congue ante nec amet. Dolor aenean curabitur viverra suspendisse iaculis eget. Nec mollis placerat ultricies euismod ut condimentum.',
+      'Resources and tools to help students prepare effectively for exams and assessments',
     href: '#',
     icon: ArrowPathIcon,
   },
@@ -133,9 +133,9 @@ const testimonials = [
 ]
 const footerNavigation = {
   solutions: [
-    { name: 'Marketing', href: '#' },
-    { name: 'Analytics', href: '#' },
-    { name: 'Commerce', href: '#' },
+    { name: 'What We Offer', href: '#' },
+    { name: 'Contact Us', href: '#' },
+    { name: 'Ai tutor', href: '#' },
     { name: 'Insights', href: '#' },
   ],
   support: [
@@ -510,7 +510,7 @@ export default function Example() {
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">What we offer</h2>
             <p className="text-base font-semibold leading-7 text-gray-900">
-              Everything you need to deploy your app
+              Personalized Learning for Every Student
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -657,7 +657,7 @@ export default function Example() {
               Get notified when we’re launching.
             </h2>
             <p className="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-black">
-              Reprehenderit ad esse et non officia in nulla. Id proident tempor incididunt nostrud nulla et culpa.
+              submit your email to join our waitlist, be the first to use our AI tutor!
             </p>
             <form className="mx-auto mt-10 flex max-w-md gap-x-4">
               <label htmlFor="email-address" className="sr-only">
