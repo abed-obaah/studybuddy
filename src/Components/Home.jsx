@@ -461,14 +461,14 @@ export default function Example() {
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-center lg:gap-y-0">
               <div className="lg:row-start-2 lg:max-w-md">
                 <h2 className="text-3xl font-bold tracking-tight text-black  sm:text-4xl">
-                  Boost your productivity.
+                  Empowering Education Through Innovation
                   <br />
                   Start using our app today.
                 </h2>
-                <p className="mt-6 text-lg leading-8 text-black ">
+{/*                 <p className="mt-6 text-lg leading-8 text-black ">
                   Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel
                   nulla. Ac euismod vel sit maecenas.
-                </p>
+                </p> */}
               </div>
               <img
                 src={frame}
